@@ -26,7 +26,7 @@ import java.util.List;
  * Question.
  */
 @Data
-public class Question implements Serializable {
+public class Question extends Base implements Serializable {
 
     /**
      * Remote Question ID.

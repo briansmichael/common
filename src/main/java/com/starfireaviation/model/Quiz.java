@@ -26,17 +26,12 @@ import java.util.List;
  * Quiz.
  */
 @Data
-public class Quiz implements Serializable {
+public class Quiz extends Base implements Serializable {
 
     /**
      * Default SerialVersionUID.
      */
     private static final long serialVersionUID = 1L;
-
-    /**
-     * ID.
-     */
-    private Long id;
 
     /**
      * Title.

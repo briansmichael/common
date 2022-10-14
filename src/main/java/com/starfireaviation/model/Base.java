@@ -20,25 +20,12 @@ import lombok.Data;
 
 import java.io.Serializable;
 
-/**
- * ReferenceMaterial.
- */
 @Data
-public class ReferenceMaterial extends Base implements Serializable {
+public class Base implements Serializable {
 
     /**
-     * Default SerialVersionUID.
+     * ID.
      */
-    private static final long serialVersionUID = 1L;
-
-    /**
-     * Title.
-     */
-    private String title;
-
-    /**
-     * URL.
-     */
-    private String resourceLocation;
+    private Long id;
 
 }

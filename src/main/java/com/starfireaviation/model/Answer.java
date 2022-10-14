@@ -25,7 +25,7 @@ import java.util.Date;
  * Answer.
  */
 @Data
-public class Answer implements Serializable {
+public class Answer extends Base implements Serializable {
 
     /**
      * Remote Answer ID.

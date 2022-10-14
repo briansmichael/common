@@ -23,7 +23,7 @@ import java.io.Serializable;
  * Address.
  */
 @Data
-public class Address implements Serializable {
+public class Address extends Base implements Serializable {
 
     /**
      * Default SerialVersionUID.

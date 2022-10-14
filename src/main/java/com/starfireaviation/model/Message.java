@@ -21,7 +21,7 @@ import lombok.Data;
 import java.io.Serializable;
 
 @Data
-public class Message implements Comparable<Message>, Serializable {
+public class Message extends Base implements Comparable<Message>, Serializable {
 
     /**
      * Organization.

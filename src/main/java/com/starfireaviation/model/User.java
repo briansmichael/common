@@ -24,17 +24,12 @@ import java.io.Serializable;
  * User.
  */
 @Data
-public class User implements Serializable {
+public class User extends Base implements Serializable {
 
     /**
      * Default SerialVersionUID.
      */
     private static final long serialVersionUID = 1L;
-
-    /**
-     * ID.
-     */
-    private Long id;
 
     /**
      * Email.

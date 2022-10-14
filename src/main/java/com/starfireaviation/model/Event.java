@@ -26,7 +26,7 @@ import java.util.List;
  * Event.
  */
 @Data
-public class Event implements Serializable {
+public class Event extends Base implements Serializable {
 
     /**
      * Default SerialVersionUID.
