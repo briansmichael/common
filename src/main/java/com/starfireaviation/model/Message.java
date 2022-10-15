@@ -46,6 +46,16 @@ public class Message extends Base implements Comparable<Message>, Serializable {
     private String payload;
 
     /**
+     * NotificationType.
+     */
+    private NotificationType notificationType;
+
+    /**
+     * NotificationEventType.
+     */
+    private NotificationEventType notificationEventType;
+
+    /**
      * Compares this message's priority to another message's priority.
      *
      * @param other the object to be compared.
