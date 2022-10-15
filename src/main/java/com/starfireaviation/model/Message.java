@@ -56,6 +56,36 @@ public class Message extends Base implements Comparable<Message>, Serializable {
     private NotificationEventType notificationEventType;
 
     /**
+     * User ID.
+     */
+    private Long userId;
+
+    /**
+     * Quiz ID.
+     */
+    private Long quizId;
+
+    /**
+     * Event ID.
+     */
+    private Long eventId;
+
+    /**
+     * Question ID.
+     */
+    private Long questionId;
+
+    /**
+     * Lesson ID.
+     */
+    private Long lessonId;
+
+    /**
+     * Reference Material ID.
+     */
+    private Long referenceMaterialId;
+
+    /**
      * Compares this message's priority to another message's priority.
      *
      * @param other the object to be compared.
