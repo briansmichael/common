@@ -19,6 +19,7 @@ package com.starfireaviation.model;
 import lombok.Data;
 
 import java.io.Serializable;
+import java.time.Instant;
 
 @Data
 public class Message extends Base implements Comparable<Message>, Serializable {
@@ -32,13 +33,6 @@ public class Message extends Base implements Comparable<Message>, Serializable {
      * Priority.
      */
     private Priority priority;
-
-    /**
-     * Type.
-     *
-     * Note: reserved for future implementation
-     */
-    private String type;
 
     /**
      * Payload.
@@ -84,6 +78,11 @@ public class Message extends Base implements Comparable<Message>, Serializable {
      * Reference Material ID.
      */
     private Long referenceMaterialId;
+
+    /**
+     * Expiration time.
+     */
+    private Instant expirationTime;
 
     /**
      * Compares this message's priority to another message's priority.
