@@ -16,18 +16,13 @@
 
 package com.starfireaviation.model;
 
-import lombok.Data;
-
 import java.io.Serializable;
 import java.time.Instant;
+import lombok.Data;
+
 
 @Data
 public class Message extends Base implements Comparable<Message>, Serializable {
-
-    /**
-     * Organization.
-     */
-    private String organization;
 
     /**
      * Priority.
