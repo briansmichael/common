@@ -42,6 +42,11 @@ public class CommonConstants {
     public static final String CLIENT_ID_HEADER_KEY = "groundschool";
 
     /**
+     * Test Data Header Key.
+     */
+    public static final String TEST_DATA_HEADER_KEY = "test-data";
+
+    /**
      * THREE.
      */
     public static final int THREE = 3;
