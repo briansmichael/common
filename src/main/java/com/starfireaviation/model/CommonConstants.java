@@ -77,9 +77,29 @@ public class CommonConstants {
     public static final int EIGHT = 8;
 
     /**
+     * NINE.
+     */
+    public static final int NINE = 9;
+
+    /**
      * TEN.
      */
     public static final int TEN = 10;
+
+    /**
+     * ELEVEN.
+     */
+    public static final int ELEVEN = 11;
+
+    /**
+     * TWELVE.
+     */
+    public static final int TWELVE = 12;
+
+    /**
+     * THIRTEEN.
+     */
+    public static final int THIRTEEN = 13;
 
     /**
      * SIXTEEN.
