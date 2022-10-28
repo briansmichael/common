@@ -27,6 +27,16 @@ public class CommonConstants {
     public static final String ID = "ID";
 
     /**
+     * Course List.
+     */
+    public static final String COURSE_LIST = "PVT,IFR,COM,CFI,ATP,FLE,AMG,AMA,AMP,PAR,SPG,SPI,MIL,IOF,MCI,RDP";
+
+    /**
+     * All.
+     */
+    public static final String ALL = "ALL";
+
+    /**
      * Organization Header Key.
      */
     public static final String ORGANIZATION_HEADER_KEY = "organization";
@@ -102,14 +112,44 @@ public class CommonConstants {
     public static final int THIRTEEN = 13;
 
     /**
+     * FIFTEEN.
+     */
+    public static final int FIFTEEN = 15;
+
+    /**
      * SIXTEEN.
      */
     public static final int SIXTEEN = 16;
 
     /**
+     * SEVENTEEN.
+     */
+    public static final int SEVENTEEN = 17;
+
+    /**
+     * EIGHTEEN.
+     */
+    public static final int EIGHTEEN = 18;
+
+    /**
+     * NINETEEN.
+     */
+    public static final int NINETEEN = 19;
+
+    /**
+     * TWENTY.
+     */
+    public static final int TWENTY = 20;
+
+    /**
      * THIRTY_TWO.
      */
     public static final int THIRTY_TWO = 32;
+
+    /**
+     * SIXTY.
+     */
+    public static final int SIXTY = 60;
 
     /**
      * ONE_HUNDRED.
@@ -120,6 +160,11 @@ public class CommonConstants {
      * TWO_HUNDRED_FIFTY_FIVE.
      */
     public static final int TWO_HUNDRED_FIFTY_FIVE = 255;
+
+    /**
+     * THREE_HUNDRED.
+     */
+    public static final int THREE_HUNDRED = 300;
 
     /**
      * FIVE_HUNDRED.

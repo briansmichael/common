@@ -19,7 +19,6 @@ package com.starfireaviation.model;
 import lombok.Data;
 
 import java.io.Serializable;
-import java.time.LocalDateTime;
 import java.util.List;
 
 /**
@@ -39,29 +38,9 @@ public class Quiz extends Base implements Serializable {
     private String title;
 
     /**
-     * Quiz started?
-     */
-    private boolean started = false;
-
-    /**
-     * LocalDateTime - startTime.
-     */
-    private LocalDateTime startTime;
-
-    /**
-     * Quiz completed?
-     */
-    private boolean completed = false;
-
-    /**
-     * LocalDateTime - completedTime.
-     */
-    private LocalDateTime completedTime;
-
-    /**
      * Questions.
      */
-    private List<Question> questions;
+    private List<Long> questionIds;
 
     /**
      * LessonPlan ID.

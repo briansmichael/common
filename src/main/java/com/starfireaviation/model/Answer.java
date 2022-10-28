@@ -38,11 +38,6 @@ public class Answer extends Base implements Serializable {
     private String text;
 
     /**
-     * Course.
-     */
-    private String course;
-
-    /**
      * Question ID.
      */
     private Long questionId;
