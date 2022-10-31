@@ -20,87 +20,73 @@ import lombok.Data;
 
 import java.io.Serializable;
 import java.util.Date;
-import java.util.List;
 
-/**
- * Question.
- */
 @Data
-public class Question extends Base implements Serializable {
+public class Image extends Base implements Serializable {
 
     /**
-     * Remote Question ID.
+     * Remote Image ID.
      */
     private Long remoteId;
 
     /**
-     * Old Question ID.
+     * PicType.
      */
-    private Long oldQuestionId;
+    private Long picType;
 
     /**
-     * Question Text.
+     * GroupID.
      */
-    private String text;
+    private Long groupId;
 
     /**
-     * Chapter ID.
+     * Test ID.
      */
-    private Long chapterId;
+    private Long testId;
 
     /**
-     * SMC ID.
+     * ImageName.
      */
-    private Long smcId;
+    private String imageName;
 
     /**
-     * ACS ID.
+     * Description.
      */
-    private Long acsId;
+    private String description;
 
     /**
-     * Source.
+     * FileName.
      */
-    private String source;
+    private String fileName;
 
     /**
-     * Course.
+     * Binary Image.
      */
-    private String course;
+    private byte[] binImage;
+
+    /**
+     * Figure Section ID.
+     */
+    private Long figureSectionId;
+
+    /**
+     * Pixels per NM.
+     */
+    private Double pixelsPerNM;
+
+    /**
+     * Sort By.
+     */
+    private Long sortBy;
+
+    /**
+     * Image Library ID.
+     */
+    private Long imageLibraryId;
 
     /**
      * Last Modified.
      */
     private Date lastModified;
-
-    /**
-     * Unit.
-     */
-    private String unit;
-
-    /**
-     * SubUnit.
-     */
-    private String subUnit;
-
-    /**
-     * Explanation.
-     */
-    private String explanation;
-
-    /**
-     * LearningStatementCode.
-     */
-    private String learningStatementCode;
-
-    /**
-     * Answers.
-     */
-    private List<Answer> answers;
-
-    /**
-     * Images.
-     */
-    private List<Image> images;
 
 }
