@@ -28,11 +28,6 @@ import java.util.Date;
 public class Answer extends Base implements Serializable {
 
     /**
-     * Remote Answer ID.
-     */
-    private Long remoteId;
-
-    /**
      * Answer Text.
      */
     private String text;
@@ -56,10 +51,5 @@ public class Answer extends Base implements Serializable {
      * Last Modified.
      */
     private Date lastModified;
-
-    /**
-     * Discussion.
-     */
-    private String discussion;
 
 }

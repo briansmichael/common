@@ -96,11 +96,20 @@ public class Event extends Base implements Serializable {
     /**
      * Event participants.
      */
-    private List<User> participants;
+    private List<Long> participantIds;
+
+    /**
+     * Checked in participants.
+     */
+    private List<Long> checkedInParticipants;
 
     /**
      * Event lead (or primary instructor).
      */
     private Long lead;
 
+    /**
+     * Support Instructors.
+     */
+    private List<Long> supportingInstructorIds;
 }

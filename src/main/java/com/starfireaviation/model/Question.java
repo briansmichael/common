@@ -54,9 +54,9 @@ public class Question extends Base implements Serializable {
     private Long smcId;
 
     /**
-     * ACS ID.
+     * ACS Code.
      */
-    private Long acsId;
+    private String acsCode;
 
     /**
      * Source.
@@ -64,24 +64,9 @@ public class Question extends Base implements Serializable {
     private String source;
 
     /**
-     * Course.
-     */
-    private String course;
-
-    /**
      * Last Modified.
      */
     private Date lastModified;
-
-    /**
-     * Unit.
-     */
-    private String unit;
-
-    /**
-     * SubUnit.
-     */
-    private String subUnit;
 
     /**
      * Explanation.
