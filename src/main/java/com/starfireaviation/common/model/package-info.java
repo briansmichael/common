@@ -14,23 +14,7 @@
  *  limitations under the License.
  */
 
-package com.starfireaviation.model;
-
 /**
- * Role.
+ * Model classes.
  */
-public enum Role {
-
-    /**
-     * ADMIN.
-     */
-    ADMIN,
-    /**
-     * INSTRUCTOR.
-     */
-    INSTRUCTOR,
-    /**
-     * STUDENT.
-     */
-    STUDENT
-}
+package com.starfireaviation.common.model;

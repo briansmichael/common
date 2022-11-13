@@ -14,31 +14,31 @@
  *  limitations under the License.
  */
 
-package com.starfireaviation.model;
-
-import lombok.Data;
-
-import java.io.Serializable;
+package com.starfireaviation.common.model;
 
 /**
- * ReferenceMaterial.
+ * ActivityType.
  */
-@Data
-public class ReferenceMaterial extends Base implements Serializable {
+public enum ActivityType {
 
     /**
-     * Default SerialVersionUID.
+     * OTHER.
      */
-    private static final long serialVersionUID = 1L;
-
+    OTHER,
     /**
-     * Title.
+     * QUIZ.
      */
-    private String title;
-
+    QUIZ,
     /**
-     * URL.
+     * LESSON.
      */
-    private String resourceLocation;
-
+    LESSON,
+    /**
+     * REVIEW.
+     */
+    REVIEW,
+    /**
+     * HANDS_ON.
+     */
+    HANDS_ON;
 }

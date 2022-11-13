@@ -14,45 +14,18 @@
  *  limitations under the License.
  */
 
-package com.starfireaviation.model;
+package com.starfireaviation.common.model;
 
 import lombok.Data;
+
 import java.io.Serializable;
 
-/**
- * Address.
- */
 @Data
-public class Address extends Base implements Serializable {
+public class Base implements Serializable {
 
     /**
-     * Default SerialVersionUID.
+     * ID.
      */
-    private static final long serialVersionUID = 1L;
-
-    /**
-     * AddressLine1.
-     */
-    private String addressLine1;
-
-    /**
-     * AddressLine2.
-     */
-    private String addressLine2;
-
-    /**
-     * City.
-     */
-    private String city;
-
-    /**
-     * State.
-     */
-    private String state;
-
-    /**
-     * ZipCode.
-     */
-    private String zipCode;
+    private Long id;
 
 }

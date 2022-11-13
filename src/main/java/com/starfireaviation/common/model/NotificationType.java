@@ -14,42 +14,39 @@
  *  limitations under the License.
  */
 
-package com.starfireaviation.model;
-
-import lombok.Data;
-
-import java.io.Serializable;
-import java.util.List;
+package com.starfireaviation.common.model;
 
 /**
- * Quiz.
+ * NotificationType.
  */
-@Data
-public class Quiz extends Base implements Serializable {
+public enum NotificationType {
 
     /**
-     * Default SerialVersionUID.
+     * ALL.
      */
-    private static final long serialVersionUID = 1L;
-
+    ALL,
     /**
-     * Title.
+     * EMAIL.
      */
-    private String title;
-
+    EMAIL,
     /**
-     * Questions.
+     * SMS.
      */
-    private List<Long> questionIds;
-
+    SMS,
     /**
-     * LessonPlan ID.
+     * SLACK.
      */
-    private Long lessonPlanId;
-
+    SLACK,
     /**
-     * QuizType.
+     * FACEBOOK.
      */
-    private QuizType quizType;
-
+    FACEBOOK,
+    /**
+     * INSTAGRAM.
+     */
+    INSTAGRAM,
+    /**
+     * TWITTER.
+     */
+    TWITTER;
 }

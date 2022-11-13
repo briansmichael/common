@@ -14,31 +14,23 @@
  *  limitations under the License.
  */
 
-package com.starfireaviation.model;
+package com.starfireaviation.common.model;
 
 /**
- * ActivityType.
+ * QuizType.
  */
-public enum ActivityType {
+public enum QuizType {
 
     /**
-     * OTHER.
+     * EXAM.
      */
-    OTHER,
+    EXAM,
     /**
-     * QUIZ.
+     * INFORMAL.
      */
-    QUIZ,
+    INFORMAL,
     /**
-     * LESSON.
+     * FORMAL.
      */
-    LESSON,
-    /**
-     * REVIEW.
-     */
-    REVIEW,
-    /**
-     * HANDS_ON.
-     */
-    HANDS_ON;
+    FORMAL;
 }

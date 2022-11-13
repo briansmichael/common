@@ -14,23 +14,31 @@
  *  limitations under the License.
  */
 
-package com.starfireaviation.model;
+package com.starfireaviation.common.exception;
+
+import lombok.NoArgsConstructor;
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.ResponseStatus;
 
 /**
- * QuizType.
+ * ResourceNotFoundException.
  */
-public enum QuizType {
+@NoArgsConstructor
+@ResponseStatus(HttpStatus.NOT_FOUND)
+public class ResourceNotFoundException extends Exception {
 
     /**
-     * EXAM.
+     * Default SerialVersionUID.
      */
-    EXAM,
+    private static final long serialVersionUID = 1L;
+
     /**
-     * INFORMAL.
+     * Initializes an instance of <code>ResourceNotFoundException</code> with the default data.
+     *
+     * @param message message
      */
-    INFORMAL,
-    /**
-     * FORMAL.
-     */
-    FORMAL;
+    public ResourceNotFoundException(final String message) {
+        super(message);
+    }
+
 }

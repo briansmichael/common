@@ -14,47 +14,15 @@
  *  limitations under the License.
  */
 
-package com.starfireaviation.model;
+package com.starfireaviation.common.model;
 
 /**
- * ResponseOption.
+ * EventType.
  */
-public enum ResponseOption {
+public enum EventType {
 
     /**
-     * UNKNOWN.
+     * GROUND_SCHOOL.
      */
-    UNKNOWN,
-    /**
-     * A.
-     */
-    A,
-    /**
-     * B.
-     */
-    B,
-    /**
-     * C.
-     */
-    C,
-    /**
-     * D.
-     */
-    D,
-    /**
-     * SKIP.
-     */
-    SKIP,
-    /**
-     * STOP.
-     */
-    STOP,
-    /**
-     * CONFIRM.
-     */
-    CONFIRM,
-    /**
-     * DECLINE.
-     */
-    DECLINE;
+    GROUNDSCHOOL;
 }

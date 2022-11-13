@@ -20,13 +20,15 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.starfireaviation</groupId>
-	<artifactId>model</artifactId>
-	<version>0.0.13</version>
-	<name>model</name>
+	<artifactId>common</artifactId>
+	<version>0.1.0</version>
+	<name>common</name>
 	<description>Common model objects</description>
 	<properties>
 		<maven.compiler.source>11</maven.compiler.source>
 		<maven.compiler.target>11</maven.compiler.target>
+		<lombok.version>1.18.24</lombok.version>
+		<springboot.version>2.7.5</springboot.version>
 		<java.version>11</java.version>
 	</properties>
 	<dependencies>
@@ -34,7 +36,12 @@
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
-			<version>1.18.24</version>
+			<version>${lombok.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+			<version>${springboot.version}</version>
 		</dependency>
 	</dependencies>
 

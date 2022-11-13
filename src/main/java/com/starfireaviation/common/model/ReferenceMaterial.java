@@ -14,18 +14,31 @@
  *  limitations under the License.
  */
 
-package com.starfireaviation.model;
+package com.starfireaviation.common.model;
 
 import lombok.Data;
 
 import java.io.Serializable;
 
+/**
+ * ReferenceMaterial.
+ */
 @Data
-public class Base implements Serializable {
+public class ReferenceMaterial extends Base implements Serializable {
 
     /**
-     * ID.
+     * Default SerialVersionUID.
      */
-    private Long id;
+    private static final long serialVersionUID = 1L;
+
+    /**
+     * Title.
+     */
+    private String title;
+
+    /**
+     * URL.
+     */
+    private String resourceLocation;
 
 }

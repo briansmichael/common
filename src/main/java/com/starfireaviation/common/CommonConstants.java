@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-package com.starfireaviation.model;
+package com.starfireaviation.common;
 
 /**
  * Common Application Constants.

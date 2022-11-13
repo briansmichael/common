@@ -14,27 +14,45 @@
  *  limitations under the License.
  */
 
-package com.starfireaviation.model;
+package com.starfireaviation.common.model;
+
+import lombok.Data;
+import java.io.Serializable;
 
 /**
- * NotificationPreference.
+ * Address.
  */
-public enum NotificationPreference {
+@Data
+public class Address extends Base implements Serializable {
 
     /**
-     * WEB.
+     * Default SerialVersionUID.
      */
-    WEB,
+    private static final long serialVersionUID = 1L;
+
     /**
-     * EMAIL.
+     * AddressLine1.
      */
-    EMAIL,
+    private String addressLine1;
+
     /**
-     * SMS.
+     * AddressLine2.
      */
-    SMS,
+    private String addressLine2;
+
     /**
-     * SLACK.
+     * City.
      */
-    SLACK
+    private String city;
+
+    /**
+     * State.
+     */
+    private String state;
+
+    /**
+     * ZipCode.
+     */
+    private String zipCode;
+
 }

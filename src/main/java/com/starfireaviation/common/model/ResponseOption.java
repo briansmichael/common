@@ -14,7 +14,47 @@
  *  limitations under the License.
  */
 
+package com.starfireaviation.common.model;
+
 /**
- * Model classes.
+ * ResponseOption.
  */
-package com.starfireaviation.model;
+public enum ResponseOption {
+
+    /**
+     * UNKNOWN.
+     */
+    UNKNOWN,
+    /**
+     * A.
+     */
+    A,
+    /**
+     * B.
+     */
+    B,
+    /**
+     * C.
+     */
+    C,
+    /**
+     * D.
+     */
+    D,
+    /**
+     * SKIP.
+     */
+    SKIP,
+    /**
+     * STOP.
+     */
+    STOP,
+    /**
+     * CONFIRM.
+     */
+    CONFIRM,
+    /**
+     * DECLINE.
+     */
+    DECLINE;
+}

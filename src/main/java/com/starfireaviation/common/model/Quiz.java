@@ -14,17 +14,18 @@
  *  limitations under the License.
  */
 
-package com.starfireaviation.model;
+package com.starfireaviation.common.model;
 
 import lombok.Data;
+
 import java.io.Serializable;
-import java.util.Date;
+import java.util.List;
 
 /**
- * Activity.
+ * Quiz.
  */
 @Data
-public class Activity extends Base implements Serializable {
+public class Quiz extends Base implements Serializable {
 
     /**
      * Default SerialVersionUID.
@@ -32,33 +33,23 @@ public class Activity extends Base implements Serializable {
     private static final long serialVersionUID = 1L;
 
     /**
-     * Created At.
-     */
-    private Date createdAt = new Date();
-
-    /**
-     * Updated At.
-     */
-    private Date updatedAt = new Date();
-
-    /**
      * Title.
      */
     private String title;
 
     /**
-     * Duration (in seconds).
+     * Questions.
      */
-    private long duration;
+    private List<Long> questionIds;
 
     /**
-     * ActivityType.
+     * LessonPlan ID.
      */
-    private ActivityType activityType;
+    private Long lessonPlanId;
 
     /**
-     * Reference ID (I.E. quiz ID).
+     * QuizType.
      */
-    private Long referenceId;
+    private QuizType quizType;
 
 }

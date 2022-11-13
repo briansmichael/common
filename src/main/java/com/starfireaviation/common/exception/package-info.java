@@ -14,39 +14,7 @@
  *  limitations under the License.
  */
 
-package com.starfireaviation.model;
-
 /**
- * NotificationType.
+ * Model classes.
  */
-public enum NotificationType {
-
-    /**
-     * ALL.
-     */
-    ALL,
-    /**
-     * EMAIL.
-     */
-    EMAIL,
-    /**
-     * SMS.
-     */
-    SMS,
-    /**
-     * SLACK.
-     */
-    SLACK,
-    /**
-     * FACEBOOK.
-     */
-    FACEBOOK,
-    /**
-     * INSTAGRAM.
-     */
-    INSTAGRAM,
-    /**
-     * TWITTER.
-     */
-    TWITTER;
-}
+package com.starfireaviation.common.exception;

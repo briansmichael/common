@@ -14,15 +14,27 @@
  *  limitations under the License.
  */
 
-package com.starfireaviation.model;
+package com.starfireaviation.common.model;
 
 /**
- * EventType.
+ * NotificationPreference.
  */
-public enum EventType {
+public enum NotificationPreference {
 
     /**
-     * GROUND_SCHOOL.
+     * WEB.
      */
-    GROUNDSCHOOL;
+    WEB,
+    /**
+     * EMAIL.
+     */
+    EMAIL,
+    /**
+     * SMS.
+     */
+    SMS,
+    /**
+     * SLACK.
+     */
+    SLACK
 }
