@@ -60,9 +60,9 @@ public class Image extends Base implements Serializable {
     private String fileName;
 
     /**
-     * Binary Image.
+     * Binary Image URL.
      */
-    private byte[] binImage;
+    private String url;
 
     /**
      * Figure Section ID.
