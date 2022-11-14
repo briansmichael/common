@@ -56,7 +56,7 @@ public class Question extends Base implements Serializable {
     /**
      * ACS Code.
      */
-    private String acsCode;
+    private List<String> acsCodes;
 
     /**
      * Source.
