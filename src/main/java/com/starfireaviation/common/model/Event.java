@@ -84,11 +84,6 @@ public class Event extends Base implements Serializable {
     private EventType eventType;
 
     /**
-     * Address.
-     */
-    private Address address;
-
-    /**
      * LessonPlan ID.
      */
     private Long lessonPlanId;
@@ -97,11 +92,6 @@ public class Event extends Base implements Serializable {
      * Event participants.
      */
     private List<Long> participantIds;
-
-    /**
-     * Checked in participants.
-     */
-    private List<Long> checkedInParticipants;
 
     /**
      * Event lead (or primary instructor).
