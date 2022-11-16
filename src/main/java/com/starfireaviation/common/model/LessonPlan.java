@@ -90,6 +90,11 @@ public class LessonPlan extends Base implements Serializable {
     /**
      * Activities.
      */
-    private List<Activity> activities;
+    private List<Long> activityIds;
+
+    /**
+     * Lessons.
+     */
+    private List<Long> lessonIds;
 
 }
