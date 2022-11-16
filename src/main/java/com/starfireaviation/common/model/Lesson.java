@@ -57,6 +57,11 @@ public class Lesson implements Serializable {
     private Long chapter;
 
     /**
+     * Title.
+     */
+    private String title;
+
+    /**
      * Text.
      */
     private String text;
