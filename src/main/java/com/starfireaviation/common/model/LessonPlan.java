@@ -97,4 +97,8 @@ public class LessonPlan extends Base implements Serializable {
      */
     private List<Long> lessonIds;
 
+    /**
+     * Presentable flag.
+     */
+    private boolean presentable;
 }
