@@ -142,6 +142,11 @@ public class CommonConstants {
     public static final int TWENTY = 20;
 
     /**
+     * THIRTY_LONG.
+     */
+    public static final long THIRTY_LONG = 30L;
+
+    /**
      * THIRTY_TWO.
      */
     public static final int THIRTY_TWO = 32;
@@ -190,6 +195,11 @@ public class CommonConstants {
      * TWO_THOUSAND.
      */
     public static final int TWO_THOUSAND = 2000;
+
+    /**
+     * TWO_THOUSAND_FORTY_EIGHT.
+     */
+    public static final int TWO_THOUSAND_FORTY_EIGHT = 2048;
 
     /**
      * FOUR_THOUSAND.
