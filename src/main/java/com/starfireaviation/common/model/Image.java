@@ -25,9 +25,9 @@ import java.util.Date;
 public class Image extends Base implements Serializable {
 
     /**
-     * Remote Image ID.
+     * Image ID.
      */
-    private Long remoteId;
+    private Long id;
 
     /**
      * PicType.
@@ -58,11 +58,6 @@ public class Image extends Base implements Serializable {
      * FileName.
      */
     private String fileName;
-
-    /**
-     * Binary Image URL.
-     */
-    private String url;
 
     /**
      * Figure Section ID.

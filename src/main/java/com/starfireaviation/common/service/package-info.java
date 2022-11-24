@@ -14,47 +14,7 @@
  *  limitations under the License.
  */
 
-package com.starfireaviation.common.model;
-
-import lombok.Data;
-
-import java.io.Serializable;
-import java.util.List;
-
 /**
- * Quiz.
+ * Service classes.
  */
-@Data
-public class Quiz implements Serializable {
-
-    /**
-     * Default SerialVersionUID.
-     */
-    private static final long serialVersionUID = 1L;
-
-    /**
-     * ID.
-     */
-    private Long id;
-
-    /**
-     * Title.
-     */
-    private String title;
-
-    /**
-     * Questions.
-     */
-    private List<Long> questionIds;
-
-    /**
-     * LessonPlan ID.
-     */
-    private Long lessonPlanId;
-
-    /**
-     * QuizType.
-     */
-    private QuizType quizType;
-
-}
+package com.starfireaviation.common.service;

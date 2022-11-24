@@ -26,12 +26,12 @@ import java.util.List;
  * Question.
  */
 @Data
-public class Question extends Base implements Serializable {
+public class Question implements Serializable {
 
     /**
-     * Remote Question ID.
+     * Question ID.
      */
-    private Long remoteId;
+    private Long id;
 
     /**
      * Old Question ID.
@@ -77,15 +77,5 @@ public class Question extends Base implements Serializable {
      * LearningStatementCode.
      */
     private String learningStatementCode;
-
-    /**
-     * Answers.
-     */
-    private List<Answer> answers;
-
-    /**
-     * Images.
-     */
-    private List<Image> images;
 
 }

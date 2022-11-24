@@ -18,43 +18,37 @@ package com.starfireaviation.common.model;
 
 import lombok.Data;
 
-import java.io.Serializable;
-import java.util.List;
+import java.util.Date;
 
 /**
- * Quiz.
+ * Chapter.
  */
 @Data
-public class Quiz implements Serializable {
+public class Chapter {
 
     /**
-     * Default SerialVersionUID.
+     * Chapter ID.
      */
-    private static final long serialVersionUID = 1L;
+    private Long chapterId;
 
     /**
-     * ID.
+     * ChapterName.
      */
-    private Long id;
+    private String chapterName;
 
     /**
-     * Title.
+     * Group ID.
      */
-    private String title;
+    private Long groupId;
 
     /**
-     * Questions.
+     * Sort By.
      */
-    private List<Long> questionIds;
+    private Long sortBy;
 
     /**
-     * LessonPlan ID.
+     * Last Modified.
      */
-    private Long lessonPlanId;
-
-    /**
-     * QuizType.
-     */
-    private QuizType quizType;
+    private Date lastModified;
 
 }
